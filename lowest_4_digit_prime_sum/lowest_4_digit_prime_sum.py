@@ -1,11 +1,13 @@
-# -*- coding: utf-8 -*-
+# THIS CODE IS CHANGED TO NOT GIVE THE ANSWER TO EULER PROJECT QUESTIONS
+# # -*- coding: utf-8 -*-
 """
 Created on Fri Nov 24 23:29:26 2023
 
 @author: eotoni
 """
 
-#the code finds the right answer as much fast as closer to the bigest number of the series
+#the code finds the right answer as much 
+#fast as closer to the bigest number of the series
 
 from sympy import isprime, primerange
 import json
@@ -35,7 +37,7 @@ find_next_prime = False
 list_of_sums = {}
 temp_set = []
 dark_list = []
-limit_range = 50000
+limit_range = 6000
 prime_set = list(primerange(1, limit_range))  # Convert the generator to a list
 
 while (len(set_primes) < 5):

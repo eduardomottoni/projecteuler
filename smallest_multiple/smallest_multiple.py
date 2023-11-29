@@ -1,4 +1,5 @@
-# -*- coding: utf-8 -*-
+# THIS CODE IS CHANGED TO NOT GIVE THE ANSWER TO EULER PROJECT QUESTIONS
+# # -*- coding: utf-8 -*-
 """
 Created on Fri Nov 24 15:48:29 2023
 
@@ -15,7 +16,7 @@ Created on Fri Nov 24 15:48:29 2023
 find_num = False
 contador = 1
 while True:
-    for i in range(1, 20):
+    for i in range(1, 5):
         if contador % i != 0:
             break
     else:
